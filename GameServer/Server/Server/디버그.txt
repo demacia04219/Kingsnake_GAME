@@ -1,0 +1,4 @@
+leaderCharacter.recoverySkillGauge 3 -> 300
+//스테미나 게이지 회복 5 -> 500
+제단 체력 지속 회복 1 -> 0
+#DEBUG_MATCHING 정의 false -> true

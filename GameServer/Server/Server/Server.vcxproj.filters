@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\network">
+      <UniqueIdentifier>{06f6feb1-6f5a-4c4f-ac35-20aa3b28dfa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\network">
+      <UniqueIdentifier>{1585b8fe-281b-4fd8-9af3-d9507ed6ab02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\game">
+      <UniqueIdentifier>{2e140150-ed41-4506-bc35-4c884453e541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game">
+      <UniqueIdentifier>{4197a555-6769-4c84-b05c-90211c8d698d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\state">
+      <UniqueIdentifier>{774c0555-d9d8-46c6-bd8b-dfb1b8ea5788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\state">
+      <UniqueIdentifier>{20856976-674a-4065-b340-923838ecfc89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\debug">
+      <UniqueIdentifier>{9acc2b21-e415-434c-9ff2-cc0aca6bf528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\debug">
+      <UniqueIdentifier>{8a6c6174-5188-4a4a-9702-a4ac958e2c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\state\player">
+      <UniqueIdentifier>{3ca500cd-8a59-4171-a83b-939ee62a135f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\state\project">
+      <UniqueIdentifier>{05b3fbf9-b006-45d8-8847-32383ea0c6b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\state\player">
+      <UniqueIdentifier>{d0f8e14e-2bf4-4829-8076-70ead26c4d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\database">
+      <UniqueIdentifier>{1574f7ec-6070-4f2e-a588-978805779ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\database">
+      <UniqueIdentifier>{383dce91-421a-463c-8ff3-1b27741913d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Tools">
+      <UniqueIdentifier>{e432c6ac-09d7-46e3-a3e1-5358d8e9f4a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\game\GameObject">
+      <UniqueIdentifier>{0f68089c-d1ba-4940-9499-7c6463912edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game\GameObject">
+      <UniqueIdentifier>{56467d1c-fd85-406e-9b72-18c463393212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\state\project">
+      <UniqueIdentifier>{d8f9760c-80e5-465a-8ebe-fb6393fff746}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Encoding.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPClient.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServer.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkException.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketGlobal.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPClient.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="MainManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchingManager.h">
+      <Filter>헤더 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>헤더 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Matching.h">
+      <Filter>헤더 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>헤더 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LicenceManager.h">
+      <Filter>헤더 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="LicenceState.h">
+      <Filter>헤더 파일\state\project</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchingState.h">
+      <Filter>헤더 파일\state\project</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>헤더 파일\state\project</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>헤더 파일\state\player</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>헤더 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalProtocol.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DBServerManager.h">
+      <Filter>헤더 파일\database</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticGameData.h">
+      <Filter>헤더 파일\database</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicGameData.h">
+      <Filter>헤더 파일\database</Filter>
+    </ClInclude>
+    <ClInclude Include="UserData.h">
+      <Filter>헤더 파일\database</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVReader.h">
+      <Filter>헤더 파일\database</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>헤더 파일\game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>헤더 파일\game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>헤더 파일\game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>헤더 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckState.h">
+      <Filter>헤더 파일\state\project</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckManager.h">
+      <Filter>헤더 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyManager.h">
+      <Filter>헤더 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyState.h">
+      <Filter>헤더 파일\state\project</Filter>
+    </ClInclude>
+    <ClInclude Include="EncryptManager.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugClientManager.h">
+      <Filter>헤더 파일\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugClientState.h">
+      <Filter>헤더 파일\state\project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EncryptManager.cpp">
+      <Filter>소스 파일\network</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPClient.cpp">
+      <Filter>소스 파일\network</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketGlobal.cpp">
+      <Filter>소스 파일\network</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPClient.cpp">
+      <Filter>소스 파일\network</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPServer.cpp">
+      <Filter>소스 파일\network</Filter>
+    </ClCompile>
+    <ClCompile Include="MainManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchingManager.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Matching.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LicenceManager.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="LicenceState.cpp">
+      <Filter>소스 파일\state\project</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchingState.cpp">
+      <Filter>소스 파일\state\project</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>소스 파일\state\player</Filter>
+    </ClCompile>
+    <ClCompile Include="DBServerManager.cpp">
+      <Filter>소스 파일\database</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticGameData.cpp">
+      <Filter>소스 파일\database</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicGameData.cpp">
+      <Filter>소스 파일\database</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVReader.cpp">
+      <Filter>소스 파일\database</Filter>
+    </ClCompile>
+    <ClCompile Include="UserData.cpp">
+      <Filter>소스 파일\database</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>소스 파일\game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckState.cpp">
+      <Filter>소스 파일\state\project</Filter>
+    </ClCompile>
+    <ClCompile Include="MainState.cpp">
+      <Filter>소스 파일\state\project</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckManager.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyManager.cpp">
+      <Filter>소스 파일\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>소스 파일\network</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugClientManager.cpp">
+      <Filter>소스 파일\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugClientState.cpp">
+      <Filter>소스 파일\state\project</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\참고자료\스킬 프로토콜.txt" />
+    <Text Include="디버그.txt" />
+  </ItemGroup>
+</Project>

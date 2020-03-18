@@ -1,0 +1,86 @@
+********************* 스킬 ****************************
+* 그림자 검
+- 버튼 누름 : CLIENT_SKILL(slot_idx, 0)
+- 스킬 활성화 : SERVER_SKILL(bool, slot_idx, 1, skillGauge, speed)
+- 시전 끝 : SERVER_SKILL(bool, slot_idx, 2, speed)
+- 투사체 생성 : SERVER_GAMEOBEJCT(obj_idx, 3, obj_type, 위치(x,y), 방향(x,y))
+- 투사체 제거 : SERVER_GAMEOBEJCT(obj_idx, 4)
+- 투사체 충돌 : CLIENT_GAMEOBJECT(obj_idx, 5, crt_idx)
+- 투사체 충돌 : SERVER_GAMEOBJECT(obj_idx, 6, bool, crt_idx, hp)
+
+* 맹호풍
+- 버튼 누름 : CLIENT_SKILL(slot_idx, 0)
+- 스킬 활성화 : SERVER_SKILL(bool, slot_idx, 1, skillGauge, speed)
+- 시전 끝 : SERVER_SKILL(bool, slot_idx, 2, speed)
+- 스킬 충돌 : SERVER_SKILL(bool, slot_idx, 10, hp, 위치(x,y), 방향(x,y))
+
+* 방울 감옥
+- 버튼 누름 : CLIENT_SKILL(slot_idx, 0)
+- 스킬 활성화 : SERVER_SKILL(bool, slot_idx, 1, skillGauge, speed)
+- 시전 끝 : SERVER_SKILL(bool, slot_idx, 2, speed)
+- 투사체 생성 : SERVER_GAMEOBJECT(obj_idx, 3, obj_type, 위치(x,y), 방향(x,y))
+- 투사체 제거 : SERVER_GAMEOBJECT(obj_idx, 4)
+- 투사체 충돌 : CLIENT_GAMEOBJECT(obj_idx, 5, crt_idx)
+- 투사체 충돌(+조작불가) : SERVER_GAMEOBJECT(obj_idx, 6, bool, speed, crt_count, (idx, hp)*crt_count)
+- 투사체 반사 : CLIENT_GAMEOBJECT(obj_idx, 7, collision_type)
+				collision_type		packing
+				0(오브젝트)		idx
+				1(기믹)			idx
+				2(벽)			-
+- 투사체 반사 : SERVER_GAMEOBJECT(obj_idx, 8, 위치(x,y), 방향(x,y))
+- 물방울 탈출 : SERVER_SKILL(bool, slot_idx, 9, speed)
+
+********************* 아이템 ****************************
+
+* 원폭토끼
+- 버튼 누름 : CLIENT_ITEMSKILL(slot_idx, 0)
+- 스킬 활성화 : SERVER_ITEMSKILL(bool, slot_idx, 1, skillGauge, speed)
+- 시전 끝 : SERVER_ITEMSKILL(bool, slot_idx, 2, speed)
+- 투사체 생성 : SERVER_GAMEOBEJCT(obj_idx, 3, obj_type, 위치(x,y), 방향(x,y))
+- 투사체 제거 : SERVER_GAMEOBEJCT(obj_idx, 4)
+- 투사체 충돌 : SERVER_GAMEOBJECT(obj_idx, 6, bool, speed, crt_count, (idx, hp)*crt_count)
+- 투사체 반사 : CLIENT_GAMEOBJECT(obj_idx, 7, collision_type)
+				collision_type		packing
+				0(오브젝트)		idx
+				1(기믹)			idx
+				2(벽)			-
+- 투사체 반사 : SERVER_GAMEOBJECT(obj_idx, 8, 위치(x,y), 방향(x,y))
+- 투사체 활성화 : CLIENT_ITEMSKILL(slot_idx, 11)
+- 투사체 안착 : SERVER_GAMEOBJECT(obj_idx, 12, 위치(x,y))
+* 화살저격
+- 버튼 누름 : CLIENT_ITEMSKILL(slot_idx, 0)
+- 스킬 활성화 : SERVER_ITEMSKILL(bool, slot_idx, 1, skillGauge, speed)
+- 시전 끝 : SERVER_ITEMSKILL(bool, slot_idx, 2, speed)
+- 투사체 생성 : SERVER_GAMEOBEJCT(obj_idx, 3, obj_type, 위치(x,y), 방향(x,y))
+- 투사체 제거 : SERVER_GAMEOBEJCT(obj_idx, 4)
+- 투사체 충돌 : CLIENT_GAMEOBJECT(obj_idx, 5, crt_idx)
+- 투사체 충돌 : SERVER_GAMEOBJECT(obj_idx, 6, bool, speed, crt_count, (idx, hp)*crt_count)
+* 할퀴기
+- 버튼 누름 : CLIENT_SKILL(slot_idx, 0)
+- 스킬 활성화 : SERVER_ITEMSKILL(bool, slot_idx, 1, skillGauge, speed)
+- 시전 끝 : SERVER_ITEMSKILL(bool, slot_idx, 2, speed)
+- 스킬 공격 : SERVER_ITEMSKILL(bool, slot_idx, 15, count, (idx, hp) * count) // 여기서 idx들은 출혈공격 받은 캐릭터 idx만
+* 나이트할로우
+- 버튼 누름 : CLIENT_ITEMSKILL(slot_idx, 0)
+- 스킬 활성화 : SERVER_ITEMSKILL(bool, slot_idx, 1, skillGauge, speed)
+- 시전 끝 : SERVER_ITEMSKILL(bool, slot_idx, 2, speed)
+- 투사체 생성(+자석연산) : SERVER_GAMEOBEJCT(obj_idx, 3, obj_type, 위치(x,y), 방향(x,y))
+- 투사체 제거 : SERVER_GAMEOBEJCT(obj_idx, 4)
+- 투사체 충돌 : SERVER_GAMEOBJECT(obj_idx, 6, bool, speed, crt_count, (idx, hp)*crt_count)
+* 저주
+- 버튼 누름 : CLIENT_ITEMSKILL(slot_idx, 0)
+- 스킬 활성화 : SERVER_ITEMSKILL(bool, slot_idx, 1, skillGauge, speed)
+- 시전 끝 : SERVER_ITEMSKILL(bool, slot_idx, 2, speed)
+* 순간이동
+- 버튼 누름 : CLIENT_ITEMSKILL(slot_idx, 0)
+- 스킬 활성화 : SERVER_ITEMSKILL(bool, slot_idx, 1, skillGauge, speed)
+- 시전 끝 : SERVER_ITEMSKILL(bool, slot_idx, 2, speed)
+- 순간이동 : SERVER_ITEMSKILL(bool, slot_idx, 19, 위치(x, y))
+* 매혹
+- 버튼 누름 : CLIENT_ITEMSKILL(slot_idx, 0)
+- 스킬 활성화 : SERVER_ITEMSKILL(bool, slot_idx, 1, skillGauge, speed)
+- 시전 끝 : SERVER_ITEMSKILL(bool, slot_idx, 2, speed)
+- 투사체 생성 : SERVER_GAMEOBEJCT(obj_idx, 3, obj_type, 위치(x,y), 방향(x,y))
+- 투사체 제거 : SERVER_GAMEOBEJCT(obj_idx, 4)
+- 투사체 충돌 : CLIENT_GAMEOBJECT(obj_idx, 5, crt_idx)
+- 투사체 충돌 : SERVER_GAMEOBJECT(obj_idx, 6, bool, speed, crt_count, (idx, hp)*crt_count)

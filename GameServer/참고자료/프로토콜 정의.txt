@@ -1,0 +1,8 @@
+CLIENT_SKILL		[slot_idx, step, ...]
+SERVER_SKILL		[bool, slot_idx, step, ...]
+
+CLIENT_ITEMSKILL	[slot_idx, step, ...]
+SERVER_ITEMSKILL	[bool, slot_idx, step, ...]
+
+CLIENT_GAMEOBJECT	[obj_idx, step, ...]
+SERVER_GAMEOBJECT	[obj_idx, step, ...]
