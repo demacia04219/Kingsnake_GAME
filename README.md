@@ -16,10 +16,7 @@
 - C++(MSVC) + STL(Container)
 - Multi-thread
 - Network with TCP/IP & IOCP
-
-### 통신 구조
-
-
+- Windows API(winsock)
 ### 역할
 - 로그인 데이터 DB서버로 전송하여 검증
 - Lobby 화면으로 유저 데이터 전송
