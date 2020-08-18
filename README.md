@@ -2,21 +2,15 @@
 
 실시간 모바일 1:1 대전액션 게임 "Kingsnake"의 게임서버입니다.
 
-## 목차
+### 프로그램 설명
+한국IT직업전문학교에서의 2018 G-STAR 출품 게임 "Kingsnake"의 서비스를 위해 개발 된 프로그램입니다.
 
-    1. 프로그램 설명
-    2. 개발 과정
-    3. 구현 과정에서 배운 것들
-    4. 보완 할 부분
-    5. 추가 설명
-
-## 1. 프로그램 설명
-한국IT직업전문학교에서의 G-STAR 출품 게임 "Kingsnake"의 서비스를 위해 개발 된 프로그램입니다.
 ### 기술
 - C++(MSVC) + STL(Container)
 - Multi-thread
 - Network with TCP/IP & IOCP
 - Windows API(winsock)
+
 ### 역할
 - 로그인 데이터 DB서버로 전송하여 검증
 - Lobby 화면으로 유저 데이터 전송
