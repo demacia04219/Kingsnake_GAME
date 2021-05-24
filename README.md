@@ -14,8 +14,7 @@
 ### 기술
 - C++(MSVC) + STL(Container)
 - Multi-thread
-- Network with TCP/IP & IOCP
-- Windows API(winsock)
+- Network with TCP/IP(winsock) & IOCP
 
 ### 역할
 - 로그인 데이터 DB서버로 전송하여 검증
